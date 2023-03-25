@@ -12,10 +12,10 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 // created songs array //
 let songs = [
-    {songName: "Dil Ibaadat song", filePath: "songs/1.mp3", coverPath: "1.jpg"},
-    {songName: "Khuda Jaane", filePath: "songs/2.mp3", coverPath: "2.jpg"},
-    {songName: "Nain Ta Heere", filePath: "songs/3.mp3", coverPath: "3.jpg"},
-    {songName: "Unstoppable", filePath: "songs/4.mp3", coverPath: "4.jpg"},
+    {songName: "Song1", filePath: "songs/1.mp3", coverPath: "1.jpg"},
+    {songName: "Song2", filePath: "songs/2.mp3", coverPath: "2.jpg"},
+    {songName: "Song3", filePath: "songs/3.mp3", coverPath: "3.jpg"},
+    {songName: "Song4", filePath: "songs/4.mp3", coverPath: "4.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
